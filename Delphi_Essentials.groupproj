@@ -1,0 +1,180 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{0C76A4B3-3D57-43DE-9407-2B63357264B5}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Example_If\Example_If.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Example_If_Else\Example_If_Else.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Example_Case\Example_Case.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Example_For\Example_For.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Example_While\Example_While.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Example_Repeat\Example_Repeat.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Example_String\Example_String.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Example_Char\Example_Char.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Example_Procedure\Example_Procedure.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Example_Function\Example_Function.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Example_Firemonkey\Example_Firemonkey.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Example_VCL\Example_VCL.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Example_IntraWeb\Example_IntraWeb.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Example_If">
+        <MSBuild Projects="Example_If\Example_If.dproj"/>
+    </Target>
+    <Target Name="Example_If:Clean">
+        <MSBuild Projects="Example_If\Example_If.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Example_If:Make">
+        <MSBuild Projects="Example_If\Example_If.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Example_If_Else">
+        <MSBuild Projects="Example_If_Else\Example_If_Else.dproj"/>
+    </Target>
+    <Target Name="Example_If_Else:Clean">
+        <MSBuild Projects="Example_If_Else\Example_If_Else.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Example_If_Else:Make">
+        <MSBuild Projects="Example_If_Else\Example_If_Else.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Example_Case">
+        <MSBuild Projects="Example_Case\Example_Case.dproj"/>
+    </Target>
+    <Target Name="Example_Case:Clean">
+        <MSBuild Projects="Example_Case\Example_Case.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Example_Case:Make">
+        <MSBuild Projects="Example_Case\Example_Case.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Example_For">
+        <MSBuild Projects="Example_For\Example_For.dproj"/>
+    </Target>
+    <Target Name="Example_For:Clean">
+        <MSBuild Projects="Example_For\Example_For.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Example_For:Make">
+        <MSBuild Projects="Example_For\Example_For.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Example_While">
+        <MSBuild Projects="Example_While\Example_While.dproj"/>
+    </Target>
+    <Target Name="Example_While:Clean">
+        <MSBuild Projects="Example_While\Example_While.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Example_While:Make">
+        <MSBuild Projects="Example_While\Example_While.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Example_Repeat">
+        <MSBuild Projects="Example_Repeat\Example_Repeat.dproj"/>
+    </Target>
+    <Target Name="Example_Repeat:Clean">
+        <MSBuild Projects="Example_Repeat\Example_Repeat.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Example_Repeat:Make">
+        <MSBuild Projects="Example_Repeat\Example_Repeat.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Example_String">
+        <MSBuild Projects="Example_String\Example_String.dproj"/>
+    </Target>
+    <Target Name="Example_String:Clean">
+        <MSBuild Projects="Example_String\Example_String.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Example_String:Make">
+        <MSBuild Projects="Example_String\Example_String.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Example_Char">
+        <MSBuild Projects="Example_Char\Example_Char.dproj"/>
+    </Target>
+    <Target Name="Example_Char:Clean">
+        <MSBuild Projects="Example_Char\Example_Char.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Example_Char:Make">
+        <MSBuild Projects="Example_Char\Example_Char.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Example_Procedure">
+        <MSBuild Projects="Example_Procedure\Example_Procedure.dproj"/>
+    </Target>
+    <Target Name="Example_Procedure:Clean">
+        <MSBuild Projects="Example_Procedure\Example_Procedure.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Example_Procedure:Make">
+        <MSBuild Projects="Example_Procedure\Example_Procedure.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Example_Function">
+        <MSBuild Projects="Example_Function\Example_Function.dproj"/>
+    </Target>
+    <Target Name="Example_Function:Clean">
+        <MSBuild Projects="Example_Function\Example_Function.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Example_Function:Make">
+        <MSBuild Projects="Example_Function\Example_Function.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Example_Firemonkey">
+        <MSBuild Projects="Example_Firemonkey\Example_Firemonkey.dproj"/>
+    </Target>
+    <Target Name="Example_Firemonkey:Clean">
+        <MSBuild Projects="Example_Firemonkey\Example_Firemonkey.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Example_Firemonkey:Make">
+        <MSBuild Projects="Example_Firemonkey\Example_Firemonkey.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Example_VCL">
+        <MSBuild Projects="Example_VCL\Example_VCL.dproj"/>
+    </Target>
+    <Target Name="Example_VCL:Clean">
+        <MSBuild Projects="Example_VCL\Example_VCL.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Example_VCL:Make">
+        <MSBuild Projects="Example_VCL\Example_VCL.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Example_IntraWeb">
+        <MSBuild Projects="Example_IntraWeb\Example_IntraWeb.dproj"/>
+    </Target>
+    <Target Name="Example_IntraWeb:Clean">
+        <MSBuild Projects="Example_IntraWeb\Example_IntraWeb.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Example_IntraWeb:Make">
+        <MSBuild Projects="Example_IntraWeb\Example_IntraWeb.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Example_If;Example_If_Else;Example_Case;Example_For;Example_While;Example_Repeat;Example_String;Example_Char;Example_Procedure;Example_Function;Example_Firemonkey;Example_VCL;Example_IntraWeb"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Example_If:Clean;Example_If_Else:Clean;Example_Case:Clean;Example_For:Clean;Example_While:Clean;Example_Repeat:Clean;Example_String:Clean;Example_Char:Clean;Example_Procedure:Clean;Example_Function:Clean;Example_Firemonkey:Clean;Example_VCL:Clean;Example_IntraWeb:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Example_If:Make;Example_If_Else:Make;Example_Case:Make;Example_For:Make;Example_While:Make;Example_Repeat:Make;Example_String:Make;Example_Char:Make;Example_Procedure:Make;Example_Function:Make;Example_Firemonkey:Make;Example_VCL:Make;Example_IntraWeb:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
